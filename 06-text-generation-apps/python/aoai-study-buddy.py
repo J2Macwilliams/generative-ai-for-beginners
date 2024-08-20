@@ -23,7 +23,8 @@ Whenever certain questions are asked, you need to provide response in below form
 
 - Concept
 - Example code showing the concept implementation
-- explanation of the example and how the concept is done for the user to understand better.
+- explanation of the example and how the concept is done for the user to understand better
+- how the concept implementation can pertain to data structures and algorithms
 
 Provide answer for the question: {question}
 """
