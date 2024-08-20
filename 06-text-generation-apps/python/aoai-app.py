@@ -15,7 +15,7 @@ client = AzureOpenAI(
 deployment=os.environ['AZURE_OPENAI_DEPLOYMENT']
 
 # add your completion code
-prompt = "Complete the following: Once upon a time there was a"
+prompt = "Complete the following: Once upon a time there was a sad, but beautiful princess"
 messages = [{"role": "user", "content": prompt}]  
 # make completion
 completion = client.chat.completions.create(model=deployment, messages=messages)
